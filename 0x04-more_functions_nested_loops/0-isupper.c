@@ -3,9 +3,9 @@
 /**
  * _isupper- function that checks for uppercase character
  *
- * @c- char to check
+ * @c: char to check
  *
- * Return: if c is uppercase, 0 otherwise
+ * Return: 1 if c is uppercase, 0 otherwise
  *
  */
 
