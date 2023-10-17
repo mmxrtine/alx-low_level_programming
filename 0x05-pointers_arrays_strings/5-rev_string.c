@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * rev_string - main function
+ * @s: function parameter
+ */
+
 void rev_string(char *s)
 {
 	int i;
@@ -13,6 +18,7 @@ void rev_string(char *s)
 	for (i = 0; i < count / 2; i++)
 	{
 		char j;
+
 		j = s[i];
 
 			s[i] = s[count - 1 - i];
