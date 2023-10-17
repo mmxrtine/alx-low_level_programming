@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - function name
@@ -19,5 +20,5 @@ void print_array(int *a, int n)
 		}
 	}
 
-	printf("\n")
+	printf("\n");
 }
