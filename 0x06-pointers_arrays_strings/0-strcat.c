@@ -13,7 +13,6 @@ char *_strcat(char *dest, char *src)
 	int srclength = 0;
 	int i; /* for looping */
 
-
 /* get length using i */
 	for (i = 0; dest[i] != '\0'; i++)
 	{
@@ -21,8 +20,8 @@ char *_strcat(char *dest, char *src)
 	}
 
 	for (i = 0; src[i] != '\0'; i++)
-	{	
-		srclength++; 
+	{
+		srclength++;
 	}
 
 /* to apppend src to dest */
