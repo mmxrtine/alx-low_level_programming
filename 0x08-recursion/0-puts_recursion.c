@@ -1,8 +1,10 @@
 #include "main.h"
-/*
- * _puts_recursion - main function
- * @s: first paramter
- */
+
+/**
+  * _puts_recursion - main function
+  *
+  * @s: function parameter
+  */
 
 void _puts_recursion(char *s)
 {
