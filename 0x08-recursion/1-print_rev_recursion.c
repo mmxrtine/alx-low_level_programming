@@ -1,18 +1,14 @@
 #include "main.h"
 /*
- * _strlen_recursion- main function
- * @s: first parameter
- * return: length of string
+ * _print_rev_recursion- main function
+ * @s: parameter
  */
 
-int _strlen_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
-	int length - 0;
-
 	if (*s)
 	{
-		length++;
-		length +- _strlen_recursion(s+1);
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	return(length)
 }
