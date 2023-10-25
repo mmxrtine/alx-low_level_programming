@@ -1,8 +1,11 @@
 #include "main.h"
-/*
- * _print_rev_recursion- main function
- * @s: parameter
- */
+
+/**
+  * _print_rev_recursion - main function
+  *
+  * @s: Function parameter
+  */
+
 
 void _print_rev_recursion(char *s)
 {
