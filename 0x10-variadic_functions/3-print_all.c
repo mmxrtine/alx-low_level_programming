@@ -13,11 +13,11 @@ void print_all(const char * const format, ...)
 
 	va_start(list, format);
 
-	if(format)
+	if (format)
 	{
 		while (format[i])
 		{
-			switch(format[i])
+			switch (format[i])
 			{
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
@@ -31,7 +31,7 @@ void print_all(const char * const format, ...)
 				case 's':
 					str = va_arg(list, char *);
 					if (!str)
-							str = "(nil)";
+						str = "(nil)";
 					printf("%s%s", sep, str);
 					break;
 				default:
