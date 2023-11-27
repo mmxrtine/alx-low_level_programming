@@ -1,5 +1,6 @@
 #include "main.h"
 
+<<<<<<< HEAD
 /*
 * read_textfile - main function
 * filename: first parameter
@@ -7,6 +8,8 @@
 * return: read or 0
 */
 
+=======
+>>>>>>> dfa95b0df4f30e16944ba7ad70da137192a5caee
 ssize_t read_textfile(const char *filename, size_t letters)
 {
         int fd;
