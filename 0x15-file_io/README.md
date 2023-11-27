@@ -45,6 +45,3 @@ where FD_VALUE is the value of the file descriptor
 Permissions of the created file: rw-rw-r--. If the file already exists, do not change the permissions
 You must read 1,024 bytes at a time from the file_from to make less system calls. Use a buffer
 You are allowed to use dprintf
-=======
-File I/O
->>>>>>> dfa95b0df4f30e16944ba7ad70da137192a5caee
