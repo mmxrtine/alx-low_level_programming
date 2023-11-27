@@ -1,4 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
+/*
+* read_textfile - main function
+* filename: first parameter
+* letters: second parameter
+* return: read or 0
+*/
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -14,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
         }
 
         /* open file */
-        fd = open(filenam, O_RDONLY);
+        fd = open(filename, O_RDONLY);
         if (fd == -1)
                 return (0);
 
@@ -37,7 +44,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
         if (_write == -1)
         {
                 free(buffer);
-                close(buffer);
+                close(fd);
                 return (0);
         }
         close(fd);
