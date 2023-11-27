@@ -7,7 +7,7 @@
 * return: read or 0
 */
 
-ssize_t read_textfile(const char *filename, size_t letters)
+size_t read_textfile(const char *filename, size_t letters)
 {
         int fd;
 
